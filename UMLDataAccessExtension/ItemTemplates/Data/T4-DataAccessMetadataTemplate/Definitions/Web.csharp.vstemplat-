@@ -1,0 +1,20 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+
+    <DefaultName>T4-DataAccessMetadataTemplate.txt</DefaultName>
+    <Name>T4-DataAccessMetadataTemplate</Name>
+    <Description>Long description here</Description>
+    <Icon>icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <TemplateID>385c0bca-4c18-4120-97a9-bb84e9097fb1</TemplateID>
+    <SortOrder>1000</SortOrder>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+     
+    <ProjectItem ReplaceParameters="true">readme.txt</ProjectItem>
+    
+  </TemplateContent>
+</VSTemplate>

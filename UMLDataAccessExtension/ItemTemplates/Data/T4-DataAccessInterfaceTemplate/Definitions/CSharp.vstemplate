@@ -1,0 +1,19 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>CSharp</ProjectType>
+    
+    <DefaultName>InterfaceTemplate.t4</DefaultName>
+    <Name>T4-DataAccessInterfaceTemplate</Name>
+    <Description>T4 template to generate a Telerik DataAccess interface from a class diagram.</Description>    
+    <Icon>icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <TemplateID>1DA9A50D-9990-4305-BEAE-AACA7E62CC91</TemplateID>
+    <SortOrder>1000</SortOrder>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+     
+    <ProjectItem ReplaceParameters="true">InterfaceTemplate.t4</ProjectItem>
+    
+  </TemplateContent>
+</VSTemplate>

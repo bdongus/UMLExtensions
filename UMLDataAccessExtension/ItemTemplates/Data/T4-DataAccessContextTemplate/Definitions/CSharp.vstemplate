@@ -1,0 +1,19 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>CSharp</ProjectType>
+    
+    <DefaultName>ContextTemplate.t4</DefaultName>
+    <Name>T4-DataAccessContextTemplate</Name>
+    <Description>T4 template to generate a Telerik DataAccess db context source from a class diagram.</Description>    
+    <Icon>icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <TemplateID>b98a7776-e64d-4ea9-9bc0-eaebbaf15c6b</TemplateID>
+    <SortOrder>1000</SortOrder>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+     
+    <ProjectItem ReplaceParameters="true">ContextTemplate.t4</ProjectItem>
+    
+  </TemplateContent>
+</VSTemplate>

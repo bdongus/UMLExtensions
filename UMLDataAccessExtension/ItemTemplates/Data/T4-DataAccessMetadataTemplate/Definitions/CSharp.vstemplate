@@ -1,0 +1,19 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>CSharp</ProjectType>
+    
+    <DefaultName>MetadataSource.t4</DefaultName>
+    <Name>T4-DataAccessMetadataTemplate</Name>
+    <Description>T4 template to generate a Telerik DataAccess metadata source from a class diagram.</Description>    
+    <Icon>icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <TemplateID>90f60812-90e7-4269-b9c1-8bde32ce65d3</TemplateID>
+    <SortOrder>1000</SortOrder>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+     
+    <ProjectItem ReplaceParameters="true">MetadataSource.tt</ProjectItem>
+    
+  </TemplateContent>
+</VSTemplate>

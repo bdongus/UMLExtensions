@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TemplateReport>
+  <ItemTemplates>
+    <ItemTemplate Path="ItemTemplates\Data\T4-CSharpHelpers\Definitions\CSharp.vstemplate" Name="T4-CSharpHelpers" Description="Modified C# helpers for usage in a UML DataAccess project." ProjectType="CSharp" ProjectSubType="" />
+    <ItemTemplate Path="ItemTemplates\Data\T4-DataAccessClassTemplate\Definitions\CSharp.vstemplate" Name="T4-DataAccessClassTemplate" Description="T4 template to generate a Telerik DataAccess class from a class diagram." ProjectType="CSharp" ProjectSubType="" />
+    <ItemTemplate Path="ItemTemplates\Data\T4-DataAccessContextTemplate\Definitions\CSharp.vstemplate" Name="T4-DataAccessContextTemplate" Description="T4 template to generate a Telerik DataAccess db context source from a class diagram." ProjectType="CSharp" ProjectSubType="" />
+    <ItemTemplate Path="ItemTemplates\Data\T4-DataAccessEnumTemplate\Definitions\CSharp.vstemplate" Name="T4-DataAccessEnumTemplate" Description="T4 template to generate a Telerik DataAccess enum from a class diagram." ProjectType="CSharp" ProjectSubType="" />
+    <ItemTemplate Path="ItemTemplates\Data\T4-DataAccessInterfaceTemplate\Definitions\CSharp.vstemplate" Name="T4-DataAccessInterfaceTemplate" Description="T4 template to generate a Telerik DataAccess interface from a class diagram." ProjectType="CSharp" ProjectSubType="" />
+    <ItemTemplate Path="ItemTemplates\Data\T4-DataAccessMetadataTemplate\Definitions\CSharp.vstemplate" Name="T4-DataAccessMetadataTemplate" Description="T4 template to generate a Telerik DataAccess metadata source from a class diagram." ProjectType="CSharp" ProjectSubType="" />
+    <ItemTemplate Path="ItemTemplates\Data\T4-DataAccessStructTemplate\Definitions\CSharp.vstemplate" Name="T4-DataAccessStructTemplate" Description="T4 template to generate a Telerik DataAccess struct from a class diagram." ProjectType="CSharp" ProjectSubType="" />
+  </ItemTemplates>
+  <ProjectTemplates />
+  <Snippets />
+</TemplateReport>

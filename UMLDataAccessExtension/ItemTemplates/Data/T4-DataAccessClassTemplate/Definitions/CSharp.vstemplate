@@ -1,0 +1,19 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>CSharp</ProjectType>
+    
+    <DefaultName>ClassTemplate.t4</DefaultName>
+    <Name>T4-DataAccessClassTemplate</Name>
+    <Description>T4 template to generate a Telerik DataAccess class from a class diagram.</Description>    
+    <Icon>icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <TemplateID>3d1ce096-e78a-4c37-9bcf-58b28051daac</TemplateID>
+    <SortOrder>1000</SortOrder>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+     
+    <ProjectItem ReplaceParameters="true">ClassTemplate.t4</ProjectItem>
+    
+  </TemplateContent>
+</VSTemplate>

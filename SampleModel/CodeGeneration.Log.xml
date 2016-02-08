@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 14.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Codegenerierungs-/Texttransformationsprotokoll">
+  <MessageClass Name="Message" Label="Meldung" Option="Informationsmeldungen anzeigen" />
+  <MessageClass Name="Warning" Label="Warnung" Option="Warnungen anzeigen" />
+  <MessageClass Name="Error" Label="Fehler" Option="Fehler anzeigen" />
+  <MessageClass Name="Property" Label="Eigenschaft" Option="Metadaten anzeigen" />
+  <MessageClass Name="Diagnostic" Label="Meldung" Option="Diagnosemeldungen anzeigen" />
+  <Message Timestamp="2016-02-08T13:02:54" Importance="High" Text="Die Codegenerierung oder Texttransformation wurde gestartet." />
+  <Message Timestamp="2016-02-08T13:02:55" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2016-02-08T13:02:55" Importance="Diagnostic" Text="Überschreiben = True" />
+  <Message Timestamp="2016-02-08T13:02:55" Importance="Diagnostic" Text="ProjectPath = ..\SampleModelLib\SampleModelLib.csproj" />
+  <Message Timestamp="2016-02-08T13:02:55" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-02-08T13:02:55" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-02-08T13:02:55" Importance="Diagnostic" Text="TemplateFilePath = ..\SampleModelLib\ClassTemplate.t4" />
+  <Message Timestamp="2016-02-08T13:02:55" Importance="Diagnostic" Text="ResolvedTemplateFilePath = Z:\Dokumente\Visual Studio 2015\Projects\VSExtensions\SampleModelLib\ClassTemplate.t4" />
+  <Message Timestamp="2016-02-08T13:02:55" Importance="Medium" Text="Die Textvorlagenbindung von SampleModel: 'ClassTemplate' wendet ClassTemplate.t4 an für: 'SampleModel::Package1::Header' -  (Class), 'SampleModel::Package1::Position' -  (Class) " />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Medium" Text="'SampleModel::Package1::Header' -  (Class) : Erfolg (Datei ersetzt) - Z:\Dokumente\Visual Studio 2015\Projects\VSExtensions\SampleModelLib\GeneratedCode\Package1\Header.generated.cs" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Medium" Text="'SampleModel::Package1::Position' -  (Class) : Erfolg (Datei ersetzt) - Z:\Dokumente\Visual Studio 2015\Projects\VSExtensions\SampleModelLib\GeneratedCode\Package1\Position.generated.cs" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="Name = EnumTemplate" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="Überschreiben = True" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="ProjectPath = ..\SampleModelLib\SampleModelLib.csproj" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Medium" Text="Die Textvorlagenbindung von SampleModel: 'EnumTemplate' wendet EnumTemplate.t4 an für: 'SampleModel::Package1::HeaderStates' -  (Enumeration) " />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Medium" Text="'SampleModel::Package1::HeaderStates' -  (Enumeration) : Erfolg (Datei ersetzt) - Z:\Dokumente\Visual Studio 2015\Projects\VSExtensions\SampleModelLib\GeneratedCode\Package1\HeaderStates.cs" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="Name = InterfaceTemplate" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="Überschreiben = True" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="ProjectPath = ..\SampleModelLib\SampleModelLib.csproj" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Medium" Text="Die Textvorlagenbindung von SampleModel: 'InterfaceTemplate' wendet InterfaceTemplate.t4 an für: 'SampleModel::Package1::IMonitoredEntity' -  (Interface) " />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Medium" Text="'SampleModel::Package1::IMonitoredEntity' -  (Interface) : Erfolg (Datei ersetzt) - Z:\Dokumente\Visual Studio 2015\Projects\VSExtensions\SampleModelLib\GeneratedCode\Package1\IMonitoredEntity.cs" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="Überschreiben = True" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="ProjectPath = ..\SampleModelLib\SampleModelLib.csproj" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Medium" Text="Die Textvorlagenbindung von SampleModel: 'StructTemplate' wendet StructTemplate.t4 an für: 'SampleModel::Package1::Header' -  (Class), 'SampleModel::Package1::Position' -  (Class) " />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="'SampleModel::Package1::Header' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="'SampleModel::Package1::Position' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="Name = MetadataSource" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="Überschreiben = True" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="ProjectPath = ..\SampleModelLib\SampleModelLib.csproj" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="TargetName = MetadataSource" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="TemplateFilePath = ..\SampleModelLib\MetadataSource.t4" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Diagnostic" Text="ResolvedTemplateFilePath = Z:\Dokumente\Visual Studio 2015\Projects\VSExtensions\SampleModelLib\MetadataSource.t4" />
+  <Message Timestamp="2016-02-08T13:02:56" Importance="Medium" Text="Die Textvorlagenbindung von SampleModel: 'MetadataSource' wendet MetadataSource.t4 an für: 'SampleModel::Package1' -  (Package) " />
+  <Message Timestamp="2016-02-08T13:02:57" Importance="Medium" Text="'SampleModel::Package1' -  (Package) : Erfolg (Datei ersetzt) - Z:\Dokumente\Visual Studio 2015\Projects\VSExtensions\SampleModelLib\GeneratedCode\MetadataSource.generated.cs" />
+  <Message Timestamp="2016-02-08T13:02:57" Importance="Diagnostic" Text="Name = Context" />
+  <Message Timestamp="2016-02-08T13:02:57" Importance="Diagnostic" Text="Überschreiben = True" />
+  <Message Timestamp="2016-02-08T13:02:57" Importance="Diagnostic" Text="ProjectPath = ..\SampleModelLib\SampleModelLib.csproj" />
+  <Message Timestamp="2016-02-08T13:02:57" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-02-08T13:02:57" Importance="Diagnostic" Text="TargetName = EntitiesModel" />
+  <Message Timestamp="2016-02-08T13:02:57" Importance="Diagnostic" Text="TemplateFilePath = ..\SampleModelLib\ContextTemplate.t4" />
+  <Message Timestamp="2016-02-08T13:02:57" Importance="Diagnostic" Text="ResolvedTemplateFilePath = Z:\Dokumente\Visual Studio 2015\Projects\VSExtensions\SampleModelLib\ContextTemplate.t4" />
+  <Message Timestamp="2016-02-08T13:02:57" Importance="Medium" Text="Die Textvorlagenbindung von SampleModel: 'Context' wendet ContextTemplate.t4 an für: 'SampleModel::Package1' -  (Package) " />
+  <Message Timestamp="2016-02-08T13:02:57" Importance="Medium" Text="'SampleModel::Package1' -  (Package) : Erfolg (Datei ersetzt) - Z:\Dokumente\Visual Studio 2015\Projects\VSExtensions\SampleModelLib\GeneratedCode\EntitiesModel.generated.cs" />
+  <Message Timestamp="2016-02-08T13:02:57" Importance="High" Text="Die Codegenerierung ist abgeschlossen. Fehler: 0. Warnungen: 0." />
+</Log>

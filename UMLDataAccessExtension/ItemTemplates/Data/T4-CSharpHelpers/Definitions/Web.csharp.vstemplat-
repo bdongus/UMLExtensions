@@ -1,0 +1,20 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+
+    <DefaultName>T4-CSharpHelpers.txt</DefaultName>
+    <Name>T4-CSharpHelpers</Name>
+    <Description>Long description here</Description>
+    <Icon>icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <TemplateID>f901ab3f-f69d-4b13-a956-11b7eccb15bd</TemplateID>
+    <SortOrder>1000</SortOrder>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+     
+    <ProjectItem ReplaceParameters="true">readme.txt</ProjectItem>
+    
+  </TemplateContent>
+</VSTemplate>
